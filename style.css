@@ -1,0 +1,668 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+
+
+}
+
+
+body {
+    background-color: rgb(3, 2, 2);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+h2 {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    scroll-snap-align: start;
+
+}
+
+
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+header a {
+    color: rgb(150, 124, 124);
+    text-decoration: none;
+    display: inline-block;
+}
+
+li a:hover {
+    color: white;
+    transform: scale(1.4);
+    transition: 0.8s;
+}
+
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding-right: 70px;
+
+
+}
+
+button {
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: purple;
+    border: none;
+    color: rgb(120, 110, 110);
+    cursor: pointer;
+    transform: scale(0.7);
+
+
+}
+
+button:hover {
+    color: white;
+    opacity: 0.5;
+
+}
+
+button:active {
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px rgb(223, 8, 223);
+}
+
+.logo {
+   width: 100px;
+   border-radius: 30px;
+   
+
+
+}
+
+.image {
+    width: 100px;
+
+}
+
+
+img {
+    border-radius: 20px 100px;
+
+}
+
+.img-topo-site {
+    width: 20%;
+}
+
+.img {
+    width: 100%;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+
+
+}
+
+.topo-do-site {
+    padding: 40px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    gap: 340px;
+
+
+
+
+}
+
+.txt-topo-site {
+    color: white;
+    width: 40%;
+
+
+
+
+}
+
+.button {
+    margin-top: 20px;
+    border-radius: 30px;
+
+
+}
+
+.paragraph {
+    margin-left: 40px;
+}
+
+
+h1 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+span {
+    color: purple;
+    font-size: 36px;
+
+}
+
+.container {
+    scroll-snap-align: start;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container h2 {
+    margin-top: 80px;
+
+}
+
+
+.specialty {
+    color: white;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+
+
+
+}
+
+.website i {
+    font-size: 70px;
+    color: purple;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.website {
+
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.website:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 8px gray;
+    cursor: pointer;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 20px;
+    }
+}
+
+.sobre {
+    padding: 40px 4%;
+    margin-top: 50px;
+
+}
+
+.img-sobre img {
+    width: 300px;
+    border-radius: 11px;
+    margin-top: 10px;
+
+
+}
+
+.dbl-sobre p {
+    color: white;
+    width: 100%;
+    margin: 20px 0;
+    text-align: justify;
+
+}
+
+.flex {
+    display: flex;
+    margin-top: 100px;
+    gap: 40px;
+
+
+
+}
+
+.dbl-sobre h2 {
+    font-size: 40px;
+    display: inline-block;
+    line-height: 43px;
+
+
+
+
+
+}
+
+.dbl-sobre span {
+    display: block;
+    margin-left: 50px;
+    letter-spacing: 2px;
+
+}
+
+.btn-social i {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-social button {
+    padding: 3px 3px;
+    border-radius: 5px;
+}
+
+/*estilo  do portifolio*/
+
+section.portifolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.152);
+
+}
+
+section.portifolio .flex {
+    justify-content: space-around;
+
+}
+
+
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s;
+    cursor: pointer;
+    position: relative;
+    padding-top: 200px;
+
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    display: flex;
+    color: purple;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 2, 23, 0.662);
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.overlay:hover {
+    opacity: 0.8;
+
+}
+
+section.formulario {
+    padding: 80px 4%;
+    top: 0;
+}
+
+form {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+form input,
+textarea {
+    width: 100%;
+    padding: 20px 15px;
+    background-color: rgb(50, 47, 47);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+
+}
+
+.interface h2 {
+    margin-bottom: 30px;
+}
+
+textarea::placeholder {
+    color: rgb(6, 128, 0);
+}
+
+form input::placeholder {
+    color: rgb(6, 128, 0);
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+.btn-enviar input,
+value {
+    width: 150px;
+    height: 60px;
+    opacity: 0.5;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 1s;
+
+
+}
+
+.btn-enviar input:hover {
+    box-shadow: 0px 0px 20px rgb(223, 8, 223);
+
+}
+
+/*roda pé */
+
+footer {
+    padding: 0px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    padding-bottom: 50px;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer p {
+    color: white;
+
+}
+
+.btn-social {
+    margin-top: 50px;
+}
+
+.logo-footer img{
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+footer .line-footer p i {
+    color: purple;
+    padding: 0px 10px;
+
+}
+
+.line-footer {
+    margin-top: 30px;
+}
+
+footer .line-footer p a {
+    color: white;
+    text-decoration: none;
+    padding-top: 40px;
+}
+
+.borda {
+    border-bottom: 2px solid purple;
+    margin-bottom: 0px;
+}
+
+
+.menu-mobile{
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width:0%; 
+    overflow: hidden; 
+    transition: .6s;  
+}
+.menu-mobile nav ul {
+    text-align: right;
+}
+.menu-mobile nav ul a{
+    color: white;
+    font-size: 20px;
+    padding: 20px 8%;
+    display: block;
+    
+}
+.menu-mobile nav ul a:hover{
+   background-color: purple;
+   color: black; 
+
+  transform: scale(1);
+}
+.menu-mobile .btn-fechar i{
+    color: white;
+    font-size: 30px;
+
+}
+.menu-mobile .btn-fechar{
+    padding: 20px 8%;
+}
+.btn-abrir-menu i{
+    color: purple;
+    font-size: 40px;
+    padding-right: 10px;
+}
+.overlay-menu {
+    background-color: rgba(0, 0, 0, 0.822);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8888;
+    display: none;
+}
+.menu-mobile.abrir-menu{
+    width: 70%;
+
+}
+.menu-mobile.abrir-menu ~.overlay-menu{
+    display: block;
+}
+
+@media screen and (max-width: 1020px) {
+    /*classe gerais*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+        scroll-snap-align: start;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+
+
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    /*CABEÇALHO*/
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /*TOPO DO SITE*/
+    .txt-topo-site {
+        color: white;
+        width: 100%;
+        gap: 20px;
+
+    }
+
+    .txt-topo-site h1 {
+        font-size: 30px;
+        line-height: 38px;
+
+    }
+
+    .img {
+        display: flex;
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        
+    }
+
+    .topo-do-site {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 20px;
+        flex-direction: column-reverse;
+        top: 0;
+      
+    }
+    .txt-topo-site p{
+        font-size: 15px;
+    }
+    .specialty{
+        flex-direction: column;
+        height: 300px;
+     
+
+       
+      
+    }
+    .img-sobre img{
+    margin-left: 60px;
+        width: 100px;
+        height: 100px;
+       align-items: center;
+       display: none;
+    }
+    .website {
+        padding: 0px;
+        margin-top: 0px;
+        border-radius: 30px;
+        transition: 1s;
+        
+    }
+    .website p{
+       padding: 20px; 
+    }
+    .dbl-sobre{
+        display: flex;
+        flex-direction: column;
+        margin-top: 420px;
+      
+      
+      
+    }
+    .dbl-sobre h2, span{
+       font-size: 30px;
+       margin-right: 20px;
+     
+    }
+ 
+   
+    .dbl-sobre h2{
+      padding-top: 200px;
+    }
+ 
+
+  
+
+section.portifolio {
+    padding: 0px 4%;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.152);
+}
+section.formulario {
+    padding: 0px 4%;
+    top: 0;
+}
+.dbl-sobre p {
+    color: white;
+    width: 100%;
+    margin: 20px 0;
+   height: 10px;
+   padding-bottom: 160px;
+  
+}
+.btn-social i{
+  font-size: 40px;
+padding-top: 350px;
+}
+h2 {
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 100px;
+}
+.flex {
+    flex-direction: column;
+    text-align: center;
+   
+}
+.logo-footer img{
+ padding-top: 50px;
+ width: 200px;
+}
+.logo {
+    width: 70px;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+}
