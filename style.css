@@ -41,6 +41,7 @@ header>.interface {
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
+  
 }
 
 header a {
@@ -293,6 +294,7 @@ section.portifolio {
     padding: 80px 4%;
     box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.152);
 
+
 }
 
 section.portifolio .flex {
@@ -368,9 +370,8 @@ textarea {
 
 }
 
-.interface h2 {
-    margin-bottom: 30px;
-}
+
+
 
 textarea::placeholder {
     color: rgb(6, 128, 0);
@@ -423,6 +424,11 @@ footer .line-footer p {
 
 .btn-social {
     margin-top: 50px;
+
+}
+.btn-social i{
+    color:white;
+    font-size: 30px;
 }
 
 .logo-footer img{
@@ -487,11 +493,7 @@ footer .line-footer p a {
 .menu-mobile .btn-fechar{
     padding: 20px 8%;
 }
-.btn-abrir-menu i{
-    color: purple;
-    font-size: 40px;
-    padding-right: 10px;
-}
+
 .overlay-menu {
     background-color: rgba(0, 0, 0, 0.822);
     width: 100%;
@@ -509,6 +511,7 @@ footer .line-footer p a {
 .menu-mobile.abrir-menu ~.overlay-menu{
     display: block;
 }
+
 
 @media screen and (max-width: 1020px) {
     /*classe gerais*/
@@ -549,7 +552,11 @@ footer .line-footer p a {
         gap: 20px;
 
     }
-
+.btn-abrir-menu i{
+    color: purple;
+    font-size: 40px;
+    padding-right: 10px;
+}
     .txt-topo-site h1 {
         font-size: 30px;
         line-height: 38px;
@@ -592,6 +599,7 @@ footer .line-footer p a {
        align-items: center;
        display: none;
     }
+    
     .website {
         padding: 0px;
         margin-top: 0px;
@@ -605,7 +613,7 @@ footer .line-footer p a {
     .dbl-sobre{
         display: flex;
         flex-direction: column;
-        margin-top: 420px;
+        margin-top: 520px;
       
       
       
@@ -664,5 +672,8 @@ h2 {
     margin-top: 10px;
     border-radius: 30px;
     margin-left: 20px;
+}
+.container h2{
+    margin-top: 0;
 }
 }
