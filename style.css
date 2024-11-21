@@ -190,6 +190,7 @@ span {
     display: flex;
     gap: 40px;
     padding: 40px;
+  
 
 
 
@@ -280,8 +281,11 @@ h3 {
 
 .btn-social i {
     color: white;
-    font-size: 20px;
+   font-size: 40px;
+    
 }
+
+
 
 .btn-social button {
     padding: 3px 3px;
@@ -613,7 +617,7 @@ footer .line-footer p a {
     .dbl-sobre{
         display: flex;
         flex-direction: column;
-        margin-top: 520px;
+        margin-top: 200px;
       
       
       
